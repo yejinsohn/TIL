@@ -1,4 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=TIL&fontSize=90)
+## ✨Today I Learned✨
 
-## Today I Learned
-공부 기록장!
+더 나은 개발자로 성장하기 위해 시작하는 공부 기록장-!  
+
+> 목표
+
+✔ 꾸준하게 기록하기</br>
+✔ 최대한 자세하기 기록하기 
