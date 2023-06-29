@@ -1,7 +1,7 @@
 ## 📍 Lv.0 양꼬치 <br>
 
 #### 문제 <br>
-<img src="https://github.com/yejinsohn/TIL/assets/104317217/f8b631e2-b3b3-4400-84b5-d45e91ecce11" width="400" height="370"/>
+<img src="https://github.com/yejinsohn/TIL/assets/104317217/8b567e06-6bc8-42f7-8f29-678c753e4d3d" width="400" height="420"/>
 
 #### 내 코드 <br>
 
