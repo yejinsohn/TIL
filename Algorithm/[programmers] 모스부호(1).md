@@ -15,7 +15,7 @@ class Solution {
         
         String[] morseString;
         morseString = letter.split(" ");
-
+    
         StringBuilder sb = new StringBuilder();
         for (String s : morseString) {
             for (int i = 0; i < morse.length; i++) {
