@@ -8,7 +8,7 @@
 ```Java
 class Solution {
     public int[] solution(int[] numbers, String direction) {
-        
+
         if (direction.equals("right")) {
             int temp = numbers[numbers.length - 1];
             for (int i = numbers.length - 2; i >= 0; i--) {
