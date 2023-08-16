@@ -1,7 +1,7 @@
 ## 📍 Lv.0 합성수 찾기 <br>
 
 #### 문제 <br>
-<img src="https://github.com/yejinsohn/TIL/assets/104317217/c02156cb-4e21-43e6-8c78-1026eab7dab9" width="470" height="470"/>
+<img src="https://github.com/yejinsohn/TIL/assets/104317217/c02156cb-4e21-43e6-8c78-1026eab7dab9" width="450" height="400"/>
 
 #### 내 코드 <br>
 
