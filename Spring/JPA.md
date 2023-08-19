@@ -9,7 +9,7 @@ JPA란 자바 진영에서 ORM(Object-Relational Mapping) 기술 표준으로 �
 
 <p align="center"><img src="https://github.com/yejinsohn/TIL/assets/104317217/232e9840-7c65-4fd6-9a73-21906034f2aa" width="600" height="200"/></p>
 
-JPA는 애플리케이션과 JDBC 사이에서 동작한다. JPA 내부에서 JDBC API를 사용하여 SQL을 호출하여 DB와 통신한다.개발자가 ORM 프레임워크에 저장하면 적절한 INSERT SQL을 생성해 데이터베이스에 저장해주고, 검색을 하면 적절한 SELECT SQL을 생성해 결과를 객체에 매핑하고 전달해 준다.
+JPA는 애플리케이션과 JDBC(Java Database Connectivity) 사이에서 동작한다. JPA 내부에서 JDBC API를 사용하여 SQL을 호출하여 DB와 통신한다.개발자가 ORM 프레임워크에 저장하면 적절한 INSERT SQL을 생성해 데이터베이스에 저장해주고, 검색을 하면 적절한 SELECT SQL을 생성해 결과를 객체에 매핑하고 전달해 준다.
 
 #### 💡 왜 JPA를 사용해야 할까?
 ##### 1. 생산성 : 데이터베이스 중심이 아닌 객체 중심 개발 가능
