@@ -29,3 +29,20 @@ Spring Data JPA는 JPA를 더 쉽게 사용하기 위해 Spring Data 프레임�
 
 정리하자면, JPA는 자바 진영의 ORM 기술에 대한 API 표준 명세이며 Hibernate는 JPA의 구현체이고, 내부적으로 JDBC를 이용한다. <br>
 Spring Data JPA는 JPA를 사용하기 쉽게 Spring에서 제공하는 모듈로 내부적으로 JPA 구현체를 이용한다.
+
+------------
+
+#### ddl-auto 옵션
+##### 종류 <br>
+- create: 기존 테이블 삭제 후 다시 생성 (DROP + CREATE)
+- create-drop: create와 같으나 종료 시점에 테이블 DROP
+- update: 변경만 반영 (운영DB에서는 사용하면 안됨)
+- validate: Entity와 테이블이 정상 매핑되었는지만 확인
+- none: 사용하지 않음 (사실상 없는 값)
+
+##### 주의사항
+create 옵션은 해당하는 테이블이 있으면 DROP하고 새로 만들어 버리기 때문에 ***로컬환경에서만*** 사용해야 한다! <br>
+- 운영 장비에서는 crate, create-drop, update 사용 X
+- 개발 초기 단계는 create 또는 update
+- 테스트 서버는 update 또는 validate
+- 스테이징과 운영 서버는 validate 또는 none
