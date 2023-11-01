@@ -7,7 +7,7 @@
 
 ```sql
 SELECT COUNT(*) AS count
-FROM ANIMAL_INS
+FROM ANIMAL_INS;
 ```
 
 ##### 🌿 쉽게 풀 수 있었다!
