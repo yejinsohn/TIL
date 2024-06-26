@@ -9,7 +9,7 @@ CSS란 HTML 등의 마크업 언어로 작성된 콘텐츠에 레이아웃과 �
 
 ------------
 
-<p align="center"><img src="https://github.com/yejinsohn/TIL/assets/104317217/6dfd3000-b23a-4345-8e09-1ff21d3322c9" width="300" height="200"/></p>
+<img src="https://github.com/yejinsohn/TIL/assets/104317217/6dfd3000-b23a-4345-8e09-1ff21d3322c9" width="300" height="200"/>
 
 #### Margin과 Padding의 차이
 Margin: Object와 화면과의 여백(외부여백) <br>
